@@ -93,10 +93,18 @@ body {
 
 .review {
     background-color: #eee;
-    width: 80%;
+    width: 90%;
     margin: 0;
     padding: 1rem;
     margin-bottom: 2rem;
+}
+
+.review::before {
+    content: "“";
+    font-size: 5rem;
+    display: block;
+    /* Remove space between quote and review content */
+    margin-bottom: -3rem;
 }
 
 .review--last {
